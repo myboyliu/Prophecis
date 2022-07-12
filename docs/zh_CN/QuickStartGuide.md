@@ -23,7 +23,7 @@
 * 安装helm-3.2.1
 ```shell
 #下载
-wget https://get.helm.sh/helm-v3.2.1-linux-amd64.tar.gz
+wget https://get.helm.sh/helm-v3.2.1-linux-amd64.tar.gz  --no-check-certificate
 
 #安装
 tar -xzvf helm-v3.2.1-linux-amd64.tar.gz
