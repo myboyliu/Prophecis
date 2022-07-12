@@ -34,7 +34,7 @@ mv helm /usr/bin/
 helm version
 
 #修改库源
-helm repo add aliyuncs https://apphub.aliyuncs.com
+helm repo add aliyun https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
 helm repo list
 ```
 * 修改Kubernertes配置
