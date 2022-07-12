@@ -30,12 +30,19 @@ tar -xzvf helm-v3.2.1-linux-amd64.tar.gz
 cd linux-amd64/
 mv helm /usr/bin/
 
+
 #验证helm版本
 helm version
 
 #修改库源
 helm repo add aliyun https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
 helm repo list
+```
+*  Go install.
+```shell
+#下载
+wget https://go.dev/dl/go1.18.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.18.3.linux-amd64.tar.gz
 ```
 * 修改Kubernertes配置
 ```shell
